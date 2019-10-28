@@ -4,7 +4,7 @@
   <view class="box">
     <text>参观日期</text>
     <text class="tx"> 8月6日     9:00-11:30</text>
-    <image src="../../image/图层 15 拷贝.png"></image>
+    <image src="../../image/15.png"></image>
   </view>
   <!-- 验证手机号 -->
   <view class="box1">

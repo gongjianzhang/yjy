@@ -15,7 +15,7 @@
   <view class="tx1">
     <text>张三</text>
     <text class="txx">  普通观众</text>
-    <image src="../../image/图层 17.png"></image>
+    <image src="../../image/17.png"></image>
   </view>
   <text>身份证：152***********4515</text>
   <view class="tx2">

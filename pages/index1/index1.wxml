@@ -5,7 +5,7 @@
   <!-- 选择时间 -->
   <view class="time">
    <view class="time1">
-   <image src="https://github.com/gongjianzhang/yjy/blob/master/image/组 3.png"></image>
+   <!-- <image src="https://github.com/gongjianzhang/yjy/blob/master/image/3.png"></image> -->
     <text>请选择参观时间</text>
    </view>
   <!-- 星期 -->
