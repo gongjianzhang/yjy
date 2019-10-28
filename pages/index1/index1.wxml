@@ -5,6 +5,7 @@
   <!-- 选择时间 -->
   <view class="time">
    <view class="time1">
+   <image src="https://github.com/gongjianzhang/yjy/blob/master/image/组 3.png"></image>
     <text>请选择参观时间</text>
    </view>
   <!-- 星期 -->
@@ -52,6 +53,7 @@
     <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
       </label>
     </checkbox-group> -->
+    
     <text class="tx">
                             中国考古博物馆（中国历史文化展示中心）
 预约须知
