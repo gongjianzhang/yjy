@@ -1,0 +1,61 @@
+<view class="container">
+  <view class="banner">
+    <text>请选择参观时间</text>
+  </view>
+  <!-- 选择时间 -->
+  <view class="time">
+   <view class="time1">
+    <text>请选择参观时间</text>
+   </view>
+  <!-- 星期 -->
+   <view class="time2">
+    <text>一</text>
+    <text>二</text>
+    <text>三</text>
+    <text>四</text>
+    <text>五</text>
+    <text>六</text>
+    <text>日</text>
+   </view>
+   <!-- 日期 -->
+   <view class="time3">
+    <text>5</text>
+    <text>6</text>
+    <text>7</text>
+    <text>8</text>
+    <text>9</text>
+    <text>10</text>
+    <text>11</text>
+   </view>
+  </view>
+  <!-- 入馆时间 -->
+  <view class="timer">
+  <view class="timer1">
+  <text>选择入馆时段</text>
+  </view>
+  <!-- 选择按钮 -->
+  <view class="timer2">
+  <button bindtap="aaa" style="background:{{viewBg}};">9:00-13:00</button>
+  <button bindtap="bbb" style="background:{{w}};">13:00-16:30</button>
+  </view>
+  </view>
+  <!-- <view class="foot"> -->
+    <button class="foot" bindtap="submit">确定选择</button>
+  <!-- </view> -->
+</view>
+
+<!-- 点击添加弹出框 -->
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view class="modalDlg" wx:if="{{showModal}}">
+    <!-- <checkbox-group bindchange="checkboxChange">
+      <label class="checkbox" wx:for="{{items}}">
+    <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+      </label>
+    </checkbox-group> -->
+    <text class="tx">
+                            中国考古博物馆（中国历史文化展示中心）
+预约须知
+                        </text>
+   <text>一、中国考古博物馆预约服务施行全员实名制 （分时段）预约参观，个人观众需提前1-5天 在“中国考古博物馆”官方网站或微信预约。 二、已预约观众，参观当天安检后可通过以下 四种方式经闸机口入馆。 1.扫描预约时使用的本人二代身份证入馆。 　2.预约本人经面部识别系统认证后入馆。 　3.以预约成功后发送至手机的二维码扫描入 馆。 　4.携带身份证以外的有效证件（如：护照、 学生证、户口本等），可到问讯处由工作 人员录入相关信息，换取纸质二维码凭证， 通过闸机口扫二维码凭证入馆。 三、未预约观众，在我馆未达到当日额定预约 上限时，可到问询处以身份证办理现场预约后， 通过闸机口刷身份证入馆参观。 四、每个身份证每天只能预约1次，预约编码 当天有效，过期作废。 五、团体观众通过团体预约电话办理预约手续。 六、如无法按时入馆参观，观众可于参观当日 15:00点前在本系统申请取消预约，逾期未办 理取消预约，系统将自动默认该账号爽约1次 累计3次爽约的账号，将在90天内不能预约。</text>
+    <button bindtap="go">同意并继续</button>
+</view>

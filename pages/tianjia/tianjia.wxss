@@ -1,0 +1,132 @@
+.top{
+  background: #F6F6F6;
+}
+.banner {
+  width: 750rpx;
+  height: 293rpx;
+  background: #fff;
+}
+.box{
+padding-top: 33rpx;
+}
+.box image{
+  width: 13rpx;
+  height: 23rpx;
+  padding-left: 214rpx;
+}
+.box text{
+  color: #333333;
+  font-size: 32rpx;
+  padding-left: 33rpx;
+}
+.box .tx{
+  color: #A67B37;
+  font-size: 32rpx;
+}
+.box1{
+  display: flex;
+   flex-direction: row;
+   margin-top: 28rpx;
+}
+.box1 text{
+  color: #333333;
+  font-size: 32rpx;
+  padding-top: 6rpx;
+  padding-left: 34rpx;
+}
+.box1 input{
+width: 435rpx;
+height: 50rpx; 
+border: 1px solid lightgray;
+margin-left: 27rpx;
+padding-left: 29rpx ;
+}
+.box1 .placeholderStyle{
+  color: #999;
+  font-size: 24rpx;
+}
+.box2{
+  display: flex;
+   flex-direction: row;
+   margin-top: 41rpx;
+}
+.box2 input{
+  width: 199rpx;
+  height: 50rpx;
+  border: 1px solid lightgray;
+  margin-left: 243rpx;
+}
+.box2 button{
+  width: 156rpx;
+  height: 55rpx;
+  font-size: 23rpx;
+  color: #fff;
+  background: #A67B37;
+  margin-left: 114rpx;
+  border-radius: 35rpx;
+}
+.foot{
+  width: 750rpx;
+  height: 770rpx;
+  background: #fff;
+  margin-top: 12rpx;
+}
+.foot1 .txx{
+  font-size: 32rpx;
+  color: #333;
+  padding-left: 34rpx;
+  margin-top: 20rpx;
+}
+.foot1 .tx{
+  font-size: 28rpx;
+  color: #DF3449;
+  padding-left: 375rpx;
+  margin-top: 21rpx;
+}
+.foot2{
+  width: 680rpx;
+  height: 234rpx;
+  border: 1px solid lightgray;
+  margin-left: 32rpx;
+  margin-top: 14rpx;
+  /* border-radius: 25rpx; */
+}
+.foot2 text{
+  color:#666;
+  font-size: 28rpx ;
+  padding-left: 30rpx;
+  line-height: 70rpx;
+}
+.footer{
+  margin-top: 15rpx;
+}
+.footer .tx{
+color: #DF3449;
+padding-left: 530rpx;
+}
+.footer2 .tx{
+color: #333;
+}
+.foot button{
+  width: 711rpx;
+  height: 90rpx;
+  border-radius: 50rpx;
+  color: #DF3449;
+  line-height: 90rpx;
+  font-size: 28rpx;
+  background: #fff;
+  margin-top: 30rpx;
+  border: 1rpx dashed #DF3449;
+}
+.end{
+  margin-top: 18rpx;
+}
+.end button{
+  width: 750rpx;
+  height: 89rpx;
+  font-size: 32rpx;
+  color: #fff;
+  background: #A67B37;
+  border-radius: 0rpx;
+}
+ 

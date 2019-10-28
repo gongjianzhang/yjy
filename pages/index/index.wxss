@@ -1,0 +1,90 @@
+.container{
+  background-color: #F6F6F6;
+}
+.banner{
+  width: 750rpx;
+  height: 96rpx;
+  background-color: #A67B37;
+  text-align: center;
+}
+.banner text {
+  color: #fff;
+  font-size: 31rpx;
+  line-height: 96rpx;
+}
+.time{
+  width: 728rpx;
+  height: 363rpx;
+  margin: 30rpx 14rpx 24rpx 8rpx;
+  background-color: #fff
+}
+.time .time1{
+  text-align: center;
+}
+.time .time1 text{
+  color: #666666;
+  font-size: 32rpx;
+}
+.time .time2 {
+  margin-top: 92rpx;
+}
+.time .time2 text{
+  margin-left: 70rpx;
+  color: #666666;
+  font-size: 28rpx;
+}
+.time .time3{
+  margin-top: 94rpx;
+}
+.time .time3 text{
+  margin-left: 75rpx;
+  font-size: 28rpx;
+  color: #999;
+}
+.timer{
+  background-color: #fff;
+  width: 732rpx;
+  height: 292rpx;
+  text-align: center;
+ 
+}
+.timer1{
+  color: #666;
+  font-size: 32rpx;
+  margin-top: 40rpx;
+  margin-bottom: 43rpx;
+}
+.timer2{
+  display: flex;
+   flex-direction: row;
+}
+.timer2 button{
+  font-size: 28rpx;
+  color: #666;
+  width: 296rpx;
+  height: 61rpx;
+  border: 1px solid #666;
+  
+
+
+}
+/* button::after{
+  border: 1px solid #666;
+} */
+
+/* .button1{
+background: #01BFA3;
+color: #fff;
+
+} */
+.foot{
+   width: 750rpx;
+  height: 96rpx;
+  background-color: #A67B37;
+  text-align: center;
+  line-height: 96rpx;
+   color: #fff;
+  font-size: 31rpx;
+  margin-top: 290rpx;
+   border-radius: 0px;  
+}

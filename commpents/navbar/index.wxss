@@ -1,0 +1,6 @@
+/* commpents/navbar/index.wxss */
+view {
+  background: red;
+  width: 50rpx;
+  height: 50rpx;
+}

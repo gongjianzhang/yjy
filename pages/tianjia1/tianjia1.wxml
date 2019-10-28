@@ -1,0 +1,57 @@
+
+<view class="top">
+<!-- 顶部模块 -->
+<view class="banner">
+  <view class="box">
+    <text>参观日期</text>
+    <text class="tx"> 8月6日     9:00-11:30</text>
+    <image src="../../image/图层 15 拷贝.png"></image>
+  </view>
+  <!-- 验证手机号 -->
+  <view class="box1">
+  <text>预约人手机号</text>
+  <input placeholder="请输入手机号码" maxlength="11" type="tel" bindinput="getInput"        placeholder-class="placeholderStyle"></input>
+  </view>
+  <view class="box2">
+    <input></input>
+    <button>验证码</button>
+  </view>
+</view>
+<!-- 中部模块 -->
+<view class="foot">
+  <view class="foot1">
+    <text class="txx">观众信息</text>
+    <text class="tx">添加已有参观者</text>
+    <view class="foot2">
+    <view class="footer">
+      <text>张三</text>
+      <text class="tx">删除</text>
+    </view>
+    <view class="footer1">
+    <text>身份证</text>
+    <text>410928198011122287</text>
+    </view>
+    <view class="footer2">
+      <text>博物馆固定展门票</text>
+      <text class="tx">免费</text>
+    </view>
+    </view>
+  </view>
+  <button bindtap="submit">+ 添加参观者(限5人)</button>
+</view>
+<view class="end">
+<button>确定预约</button>
+</view>
+</view>
+<!-- 点击添加弹出框 -->
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view class="modalDlg" wx:if="{{showModal}}">
+    <checkbox-group bindchange="checkboxChange">
+      <label class="checkbox" wx:for="{{items}}">
+    <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+      </label>
+    </checkbox-group>
+    <button bindtap="go">确认添加</button>
+</view>
+ 
+<!-- <button bindtap="submit">点我弹窗</button> -->

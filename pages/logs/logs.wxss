@@ -1,0 +1,70 @@
+
+.container{
+  background-color: #F6F6F6;
+  height: 100%;
+}
+.banner{
+  width: 750rpx;
+  height: 96rpx;
+  background-color: #A67B37;
+  text-align: center;
+}
+.banner text {
+  color: #fff;
+  font-size: 32rpx;
+  line-height: 98rpx;
+}
+.box{
+  width: 695rpx;
+  height: 748rpx;
+  background-color: #fff;
+}
+.box1{
+  height: 85rpx;
+  line-height: 85rpx;
+  display: flex;
+   flex-direction: row;
+   margin-top: 98rpx;
+   margin-left: 215rpx;
+
+  
+}
+.box1 image{
+  width: 85rpx ;
+  height: 85rpx;
+  margin-right: 24rpx;
+}
+.box1 text{
+ color: #333;
+ font-size: 32rpx;
+ font-weight:bold;
+}
+.box2{
+  width: 587rpx;
+  height: 190rpx;
+  margin-top: 106rpx;
+  margin-left: 57rpx;
+}
+.box2 text{
+  color: #333;
+  font-size: 32rpx;
+}
+.box3{
+   display: flex;
+   flex-direction: row;
+   margin-top: 106rpx;
+}
+.box3 button{
+  width: 255rpx;
+  height: 89rpx;
+  font-size: 32rpx;
+  background-color: #A67B37;
+  color: #fff;
+  border-radius: 25px; 
+}
+navigator{
+  margin-top: 60rpx;
+  color: #A67B37;
+  font-weight:bold;
+  margin-bottom: 230rpx;
+}

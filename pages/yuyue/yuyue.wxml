@@ -1,0 +1,32 @@
+<view class="container">
+<view class="banner">
+    <text>预约结果</text>
+  </view>
+  <view class="box">
+  <text class="tx1">订单编号:CHNM19101311082965</text>
+  <text class="tx2">预约成功</text>
+  </view>
+  <view class="box2">
+  <text class="tx">参观日期：2019-10-15  09:00-11:30</text>
+  <text>预约时间：2019-10-13  11:08:21</text>
+  <text>订单金额：￥0</text>
+  </view>
+  <view class="box3">
+  <view class="tx1">
+    <text>张三</text>
+    <text class="txx">  普通观众</text>
+    <image src="../../image/图层 17.png"></image>
+  </view>
+  <text>身份证：152***********4515</text>
+  <view class="tx2">
+  <text>免费参观门票</text>
+  <text class="txx1">0</text>
+  </view>
+  <text class="tx3">待检票</text>
+  </view>
+  <view class="foot">
+  <text class="foot1">退款总计:</text>
+  <text class="foot2">￥0</text>
+  <button>确认退票</button>
+  </view>
+</view>

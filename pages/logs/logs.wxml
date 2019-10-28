@@ -1,0 +1,23 @@
+<view class="container">
+<view class="banner">
+    <text>预约结果</text>
+  </view>
+  <view class="box">
+    <view class="box1">
+    <image src="../../image/图层 21.png"></image>
+    <text>预约成功!</text>
+    </view>
+    <view class="box2">
+      <text>
+      {{a}}
+     </text>
+    </view>
+    <view class="box3">
+  <button>继续购票</button>
+  <button>查看订单</button>
+  </view>
+  </view>
+  <navigator>
+  <text>前往购买中国考古博物馆内影票 >>></text>
+  </navigator>
+</view>
