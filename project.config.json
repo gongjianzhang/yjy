@@ -107,6 +107,13 @@
 					"id": -1,
 					"name": "pages/index1/index1",
 					"pathName": "pages/index1/index1",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/tianjia2/tianjia2",
+					"pathName": "pages/tianjia2/tianjia2",
 					"scene": null
 				}
 			]

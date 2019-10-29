@@ -7,7 +7,8 @@
     "commpents/navbar/index",
     "pages/tianjia/tianjia",
     "pages/tianjia1/tianjia1",
-    "pages/index1/index1"
+    "pages/index1/index1",
+    "pages/tianjia2/tianjia2"
   ],
   "window": {
     "backgroundTextStyle": "light",
